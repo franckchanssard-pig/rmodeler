@@ -3,12 +3,11 @@
 ## Project Structure & Module Organization
 - `modeler-skills/` holds the main documentation set, with `00_index.md` as the entry point and numbered topical guides (e.g., `10_...md`, `20_...md`).
 - Root-level markdown files (`pigment-formula-guide.md`, `formula-fetch.md`, `workspace-service-endpoints.md`) provide standalone reference material.
-- Python utilities live at the root (`time-input-setup.py`, `time-input-finish.py`).
+- Python utilities (if any) should live at the root and be documented here.
 
 ## Build, Test, and Development Commands
 This repo is documentation-first and does not define a build system or test suite. If you add tooling, document it here with concrete commands. Examples:
-- `python time-input-setup.py` — runs the setup script (if needed for local workflows).
-- `python time-input-finish.py` — runs the finish script (if needed for local workflows).
+- Add any local workflow scripts here if you introduce them.
 
 ## Coding Style & Naming Conventions
 - Markdown files use descriptive, topic-first names and a numeric prefix ordering in `modeler-skills/` (e.g., `30_lists_dimensions_blocks.md`).
